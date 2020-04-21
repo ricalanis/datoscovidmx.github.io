@@ -6,7 +6,7 @@
  - [Estimaciones para el resto de los estados](#estimaciones-para-el-resto-de-los-estados)
   - [Casos confirmados vs. casos estimados](#casos-confirmados-vs-casos-estimados-1)
   - [Variación de la tasa efectiva de reproducción](#variación-de-la-tasa-efectiva-de-reproducción-1)
- - [Resumen Nacional](#resumen-nacional)
+ - [Resumen nacional](#resumen-nacional)
  - [Metodología](#métodología)
   - [Datos](#datos)
   - [Supuestos](#supuestos)
@@ -30,7 +30,7 @@ Para detalles sobre el equipo que trabajó esta implementación, y cómo la mant
 
 ### Casos confirmados vs. casos estimados
 
-Los casos estimados se obtienen apartir de corregir los datos confirmados teniendo en cuenta el retraso entre la confirmación del caso y la fecha de inicio de sintomas más el periodo de incubación del virus.
+Los casos estimados se obtienen al ajustar los datos de casos confirmados teniendo en cuenta el retraso entre la fecha de infección, la fecha de inicio de síntomas transcurrido el período de incubación y la fecha de confirmación del caso.
 
 Las áreas sombreadas representan mejor la evolución epidemiológica de las entidades que los casos confirmados diarios o acumulados, podemos entender esta gráfica como una corrección al conteo. 
 
@@ -38,7 +38,7 @@ Las áreas sombreadas representan mejor la evolución epidemiológica de las ent
 
 <center>Casos confirmados (barras) y casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center><br />
 <br />
-*Es de notar que la estimación, no llega al dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*
+*Es de notar que la estimación no llega hasta el dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*
 
 ### Variación de la tasa efectiva de reproducción 
 
