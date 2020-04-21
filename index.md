@@ -86,7 +86,7 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 ---
 ## Métodología
 
-Hicimos una implementación basada en el trabajo experto del [centro de modelado matemático para enfermedades infecciosas](https://cmmid.github.io/), con algunas modificaciones dado el contexto nacional:
+Hicimos una implementación basada en el trabajo experto del [Centro de Modelado Matemático para Enfermedades Infecciosas (CMMID)](https://cmmid.github.io/) de la [London School of Hygiene and Tropical Medicine (LSHTM)](https://www.lshtm.ac.uk/) con algunas modificaciones dado el contexto nacional:
 
 ### Datos
 
@@ -102,7 +102,7 @@ Hicimos una implementación basada en el trabajo experto del [centro de modelado
 
 Los resultados presentados aquí son sensibles a los cambios en las prácticas de prueba (testing) para COVID-19 y al nivel de esfuerzo realizado para detectar los casos de COVID-19. 
 
-Si un estado amplía su capacidad de prueba y comienza a informar una mayor proporción de casos, entonces el modelo se ajustará a un valor de número de reproducción más alto, ya que solo comprende los nuevos casos en términos de la infecciosidad de los casos notificados previamente y no como resultado de mejores pruebas. Por otro lado, si un estado reduce su esfuerzo por hacer pruebas (por ejemplo, alcanzar su capacidad máxima de pruebas por día o quedarse sin pruebas), entonces el modelo estimará una caída en el número de reproducción que puede no ser una verdadera reducción. 
+Si un estado amplía su capacidad de aplicar pruebas y comienza a informar una mayor proporción de casos, entonces el modelo se ajustará a un valor de número de reproducción más alto, ya que interpreta los nuevos casos en términos de contagios de los casos notificados previamente y no como resultado de un incremento en la aplicación de pruebas. Por otro lado, si un estado reduce sus esfuerzos de aplicación de pruebas (por ejemplo, si llega a su capacidad máxima o se queda sin pruebas), entonces el modelo estimará una caída en el número de reproducción que puede no ser una verdadera reducción. 
 
 **Lo que es importante para que estos resultados sean imparciales, es que relacionado a las pruebas, la metodología para hacer pruebas de COVID-19 sea consistente. Esto significa que si bien un cambio en el esfuerzo por hacer pruebas, inicialmente introducirá un sesgo, esto se reducirá con el tiempo siempre que dicho esfuerzo permanezca constante a partir de ese momento.**
 
