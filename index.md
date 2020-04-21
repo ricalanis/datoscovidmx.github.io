@@ -1,3 +1,8 @@
+# Seguimiento semanal de COVID-19 en México
+# Resumen al 16 de abril de 2020
+
+Para detalles sobre el equipo que trabajó esta implementación, y cómo la mantendremos actualizada: [Contexto sobre el Observatorio de Datos COVID MX](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
+
 - [Seguimiento semanal de COVID-19 en México](#seguimiento-semanal-de-covid-19-en-méxico)
 - [Resumen al 16 de abril de 2020](#resumen-al-16-de-abril-de-2020)
  - [Estados con estimación de casos nuevos diarios más alta](#estados-con-estimación-de-casos-nuevos-diarios-más-alta)
@@ -12,12 +17,6 @@
   - [Supuestos](#supuestos)
   - [Limitaciones](#limitaciones)
   - [Detalles](#detalles)
-
-
-# Seguimiento semanal de COVID-19 en México
-# Resumen al 16 de abril de 2020
-
-Para detalles sobre el equipo que trabajó esta implementación, y cómo la mantendremos actualizada: [Contexto sobre el Observatorio de Datos COVID MX](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
 
 ## Estados con estimación de casos nuevos diarios más alta
 
