@@ -1,13 +1,13 @@
 - [Seguimiento semanal de COVID-19 en México](#seguimiento-semanal-de-covid-19-en-méxico)
-- [Resumen al 16 de Abril de 2020](#resumen-al-16-de-abril-de-2020)
+- [Resumen al 16 de abril de 2020](#resumen-al-16-de-abril-de-2020)
  - [Estados con estimación de casos nuevos diarios más alta](#estados-con-estimación-de-casos-nuevos-diarios-más-alta)
-  - [Casos confirmados vs Casos estimados](#casos-confirmados-vs-casos-estimados)
+  - [Casos confirmados vs. casos estimados](#casos-confirmados-vs-casos-estimados)
   - [Variación de la tasa efectiva de reproducción](#variación-de-la-tasa-efectiva-de-reproducción)
  - [Estimaciones para el resto de los estados](#estimaciones-para-el-resto-de-los-estados)
-  - [Casos confirmados vs casos estimados](#casos-confirmados-vs-casos-estimados-1)
+  - [Casos confirmados vs. casos estimados](#casos-confirmados-vs-casos-estimados-1)
   - [Variación de la tasa efectiva de reproducción](#variación-de-la-tasa-efectiva-de-reproducción-1)
- - [Resúmen Nacional](#resúmen-nacional)
- - [Métodología](#métodología)
+ - [Resumen Nacional](#resumen-nacional)
+ - [Metodología](#métodología)
   - [Datos](#datos)
   - [Supuestos](#supuestos)
   - [Limitaciones](#limitaciones)
@@ -15,7 +15,7 @@
 
 
 # Seguimiento semanal de COVID-19 en México
-# Resumen al 16 de Abril de 2020
+# Resumen al 16 de abril de 2020
 
 Para detalles sobre el equipo que trabajó esta implementación, y cómo la mantendremos actualizada: [Contexto sobre el Observatorio de Datos COVID MX](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
 
@@ -28,7 +28,7 @@ Para detalles sobre el equipo que trabajó esta implementación, y cómo la mant
 - Puebla
 - Sinaloa
 
-### Casos confirmados vs casos estimados
+### Casos confirmados vs. casos estimados
 
 Los casos estimados se obtienen apartir de corregir los datos confirmados teniendo en cuenta el retraso entre la confirmación del caso y la fecha de inicio de sintomas más el periodo de incubación del virus.
 
@@ -71,7 +71,7 @@ Observar una tendencia a la baja es un signo positivo en relación al control de
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/rt_plot.png)
 
-## Resúmen nacional
+## Resumen nacional
 
 Este resúmen muestra la tasa efectiva de reproducción actual para cada estado además del estimado de casos nuevos diarios.
 
@@ -84,7 +84,7 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 **La línea punteada indica el valor objetivo de 1 para la tasa efectiva de reproducción que se requiere para el control**
 
 ---
-## Métodología
+## Metodología
 
 Hicimos una implementación basada en el trabajo experto del [Centro de Modelado Matemático para Enfermedades Infecciosas (CMMID)](https://cmmid.github.io/) de la [London School of Hygiene and Tropical Medicine (LSHTM)](https://www.lshtm.ac.uk/) con algunas modificaciones dado el contexto nacional:
 
