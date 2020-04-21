@@ -15,7 +15,7 @@ Sin embargo, una vez proporcionado el modelo por nuestra parte, los especialista
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Comparto la carta con la que iniciamos la plática de hoy. Para el público en general y evitar confusiones.<br><br>Saludos. <a href="https://t.co/kbbQkak9LS">pic.twitter.com/kbbQkak9LS</a></p>&mdash; Miguel Núñez (@NunezKant) <a href="https://twitter.com/NunezKant/status/1246326695654756353?ref_src=twsrc%5Etfw">April 4, 2020</a></blockquote> 
 
-Después de ese intercambio, nos pareció que más allá de implementar un modelo de predicción de infectados, necesitabamos implementar una herramienta que le diera seguimiento a la evolución epidemiológica del país, dónde sea observarble el efecto de las políticas públicas como las cuarentena.
+Después de ese intercambio, nos pareció que más allá de implementar un modelo de predicción de infectados, necesitabamos implementar una herramienta que le diera seguimiento a la evolución epidemiológica del país, dónde sea observarble el efecto de las políticas públicas como las cuarentenas.
 
 ## Seguimiento semanal epidemiológico en México
 
@@ -26,4 +26,4 @@ La implementación permite identificar los cambios en el **número de reproducci
 ## Datos
 
 - Los datos utilizados provienen del reporte técnico diario federal de la Secretaría de Salud (InDRE) de México.
-- Las gráficas por estado y los datos para generarlas se pueden obtener en [(https://github.com/datoscovidmx/covid-nowcasts-mexico)](https://github.com/datoscovidmx/covid-nowcasts-mexico)
+- Las gráficas por estado y los datos para generarlas se pueden obtener en [(https://github.com/datoscovidmx/covid-nowcasts-mexico)](https://github.com/datoscovidmx/covid-nowcasts-mexico).

@@ -1,23 +1,22 @@
+# Seguimiento semanal de COVID-19 en México
+# Resumen al 16 de abril de 2020
+
+Para detalles sobre el equipo que trabajó esta implementación, y cómo la mantendremos actualizada: [Contexto sobre el Observatorio de Datos COVID MX](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
+
 - [Seguimiento semanal de COVID-19 en México](#seguimiento-semanal-de-covid-19-en-méxico)
-- [Resumen al 16 de Abril de 2020](#resumen-al-16-de-abril-de-2020)
+- [Resumen al 16 de abril de 2020](#resumen-al-16-de-abril-de-2020)
  - [Estados con estimación de casos nuevos diarios más alta](#estados-con-estimación-de-casos-nuevos-diarios-más-alta)
-  - [Casos confirmados vs Casos Estimados](#casos-confirmados-vs-casos-estimados)
+  - [Casos confirmados vs. casos estimados](#casos-confirmados-vs-casos-estimados)
   - [Variación de la tasa efectiva de reproducción](#variación-de-la-tasa-efectiva-de-reproducción)
  - [Estimaciones para el resto de los estados](#estimaciones-para-el-resto-de-los-estados)
-  - [Casos confirmados vs casos Estimados](#casos-confirmados-vs-casos-estimados-1)
+  - [Casos confirmados vs. casos estimados](#casos-confirmados-vs-casos-estimados-1)
   - [Variación de la tasa efectiva de reproducción](#variación-de-la-tasa-efectiva-de-reproducción-1)
- - [Resúmen Nacional](#resúmen-nacional)
- - [Métodología](#métodología)
+ - [Resumen nacional](#resumen-nacional)
+ - [Metodología](#métodología)
   - [Datos](#datos)
   - [Supuestos](#supuestos)
   - [Limitaciones](#limitaciones)
   - [Detalles](#detalles)
-
-
-# Seguimiento semanal de COVID-19 en México
-# Resumen al 16 de Abril de 2020
-
-Para detalles sobre el equipo que trabajó esta implementación, y como la mantendrémos actualizada: [Contexto sobre el observatorio de datos COVID Mx](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
 
 ## Estados con estimación de casos nuevos diarios más alta
 
@@ -28,9 +27,9 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 - Puebla
 - Sinaloa
 
-### Casos confirmados vs Casos Estimados
+### Casos confirmados vs. casos estimados
 
-Los casos estimados se obtienen apartir de corregir los datos confirmados teniendo en cuenta el retraso entre la confirmación del caso y la fecha de inicio de sintomas más el periodo de incubación del virus.
+Los casos estimados se obtienen al ajustar los datos de casos confirmados teniendo en cuenta el retraso entre la fecha de infección, la fecha de inicio de síntomas transcurrido el período de incubación y la fecha de confirmación del caso.
 
 Las áreas sombreadas representan mejor la evolución epidemiológica de las entidades que los casos confirmados diarios o acumulados, podemos entender esta gráfica como una corrección al conteo. 
 
@@ -38,7 +37,7 @@ Las áreas sombreadas representan mejor la evolución epidemiológica de las ent
 
 <center>Casos confirmados (barras) y casos estimados (banda clara = intervalo de credibilidad al 90%; banda obscura = intervalo de credibilidad al 50%).</center><br />
 <br />
-*Es de notar que la estimación, no llega al dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*
+*Es de notar que la estimación no llega hasta el dia en el que actualizamos el reporte, dado que la estimación depende del retraso anteriormente citado, que es en promedio de alrededor de 10 días*
 
 ### Variación de la tasa efectiva de reproducción 
 
@@ -63,7 +62,7 @@ Observar una tendencia a la baja es un signo positivo en relación al control de
 
 - Solo se incluyen estados con al menos 10 casos confirmados en un día para este análisis
 
-### Casos confirmados vs casos Estimados
+### Casos confirmados vs casos estimados
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/cases_plot.png)
 
@@ -71,7 +70,7 @@ Observar una tendencia a la baja es un signo positivo en relación al control de
 
 ![](https://raw.githubusercontent.com/datoscovidmx/covid-nowcasts-mexico/master/2020-04-16/regional-summary/rt_plot.png)
 
-## Resúmen Nacional
+## Resumen nacional
 
 Este resúmen muestra la tasa efectiva de reproducción actual para cada estado además del estimado de casos nuevos diarios.
 
@@ -84,9 +83,9 @@ Los estados están ordenados por el número de casos diarios confirmados esperad
 **La línea punteada indica el valor objetivo de 1 para la tasa efectiva de reproducción que se requiere para el control**
 
 ---
-## Métodología
+## Metodología
 
-Hicimos una implementación basada en el trabajo experto del [centro de modelado matemático para enfermedades infecciosas](https://cmmid.github.io/), con algunas modificaciones dado el contexto nacional:
+Hicimos una implementación basada en el trabajo experto del [Centro de Modelado Matemático para Enfermedades Infecciosas (CMMID)](https://cmmid.github.io/) de la [London School of Hygiene and Tropical Medicine (LSHTM)](https://www.lshtm.ac.uk/) con algunas modificaciones dado el contexto nacional:
 
 ### Datos
 
@@ -102,9 +101,9 @@ Hicimos una implementación basada en el trabajo experto del [centro de modelado
 
 Los resultados presentados aquí son sensibles a los cambios en las prácticas de prueba (testing) para COVID-19 y al nivel de esfuerzo realizado para detectar los casos de COVID-19. 
 
-Si un estado amplía su capacidad de prueba y comienza a informar una mayor proporción de casos, entonces el modelo se ajustará a un valor de número de reproducción más alto, ya que solo comprende los nuevos casos en términos de la infecciosidad de los casos notificados previamente y no como resultado de mejores pruebas. Por otro lado, si un estado reduce su esfuerzo por hacer pruebas (por ejemplo, alcanzar su capacidad máxima de pruebas por día o quedarse sin pruebas), entonces el modelo estimará una caída en el número de reproducción que puede no ser una verdadera reducción. 
+Si un estado amplía su capacidad de aplicar pruebas y comienza a informar una mayor proporción de casos, entonces el modelo se ajustará a una tasa de reproducción más alta, ya que interpreta los nuevos casos en términos de contagios de los casos notificados previamente y no como resultado de un incremento en la aplicación de pruebas. Por otro lado, si un estado reduce sus esfuerzos de aplicación de pruebas (por ejemplo, si llega a su capacidad máxima o se queda sin pruebas), entonces el modelo estimará una caída en el número de reproducción que puede no ser una verdadera reducción. 
 
-**Lo que es importante para que estos resultados sean imparciales, es que relacionado a las pruebas, la metodología para hacer pruebas de COVID-19 sea consistente. Esto significa que si bien un cambio en el esfuerzo por hacer pruebas, inicialmente introducirá un sesgo, esto se reducirá con el tiempo siempre que dicho esfuerzo permanezca constante a partir de ese momento.**
+**Lo que es importante para que estos resultados sean imparciales, es que la metodología para hacer pruebas de COVID-19 sea consistente. Esto significa que si bien un cambio en el esfuerzo por hacer pruebas, inicialmente introducirá un sesgo, esto se reducirá con el tiempo siempre que dicho esfuerzo permanezca constante a partir de ese momento.**
 
 ### Detalles 
 
