@@ -17,7 +17,7 @@
 # Seguimiento semanal de COVID-19 en México
 # Resumen al 16 de Abril de 2020
 
-Para detalles sobre el equipo que trabajó esta implementación, y como la mantendrémos actualizada: [Contexto sobre el observatorio de datos COVID Mx](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
+Para detalles sobre el equipo que trabajó esta implementación, y cómo la mantendremos actualizada: [Contexto sobre el Observatorio de Datos COVID MX](https://github.com/datoscovidmx/datoscovidmx.github.io/blob/master/README.md)
 
 ## Estados con estimación de casos nuevos diarios más alta
 
@@ -28,7 +28,7 @@ Para detalles sobre el equipo que trabajó esta implementación, y como la mante
 - Puebla
 - Sinaloa
 
-### Casos confirmados vs casos Estimados
+### Casos confirmados vs casos estimados
 
 Los casos estimados se obtienen apartir de corregir los datos confirmados teniendo en cuenta el retraso entre la confirmación del caso y la fecha de inicio de sintomas más el periodo de incubación del virus.
 
